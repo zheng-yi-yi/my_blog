@@ -1,26 +1,57 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export default sidebar({
-  "/": [
-    "",
+  "/angular/": [
     {
-      text: "如何使用",
-      icon: "laptop-code",
-      prefix: "demo/",
-      link: "demo/",
+      text: "HTML",
+      icon: "devicon:html5-wordmark",
+      collapsible: true,
+      prefix: "01_HTML/",
       children: "structure",
     },
     {
-      text: "文章",
-      icon: "book",
-      prefix: "posts/",
+      text: "CSS",
+      icon: "devicon:css3",
+      collapsible: true,
+      prefix: "02_CSS/",
       children: "structure",
     },
-    "intro",
     {
-      text: "幻灯片",
-      icon: "person-chalkboard",
-      link: "https://plugin-md-enhance.vuejs.press/zh/guide/content/revealjs/demo.html",
+      text: "JavaScript",
+      icon: "devicon:javascript",
+      collapsible: true,
+      prefix: "03_JavaScript/",
+      children: "structure",
+    },
+    {
+      text: "Angular",
+      icon: "logos:angular-icon",
+      collapsible: true,
+      prefix: "04_Angular/",
+      children: "structure",
+    },
+  ],
+  "/dotnet/": [
+    {
+      text: "C#",
+      icon: "devicon:csharp",
+      collapsible: true,
+      prefix: "01_chsarp/",
+      children: "structure",
+    },
+    {
+      text: ".NET",
+      icon: "skill-icons:dotnet",
+      collapsible: true,
+      prefix: "02_NET/",
+      children: "structure",
+    },
+    {
+      text: "ASP.NET Core",
+      icon: "vscode-icons:file-type-asp",
+      collapsible: true,
+      prefix: "03_ASPNET/",
+      children: "structure",
     },
   ],
 });
