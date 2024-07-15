@@ -17,6 +17,11 @@ export default navbar([
     link: "/angular/04_Angular/01_快速入门.md",
   },
   {
+    text: "微信小程序",
+    icon: "carbon:category",
+    link: "/mp/01_目录结构.md",
+  },
+  {
     text: "分类",
     icon: "carbon:category",
     link: "/category/",
