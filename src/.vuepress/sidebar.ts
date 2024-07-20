@@ -54,5 +54,12 @@ export default sidebar({
       prefix: "03_ASPNET/",
       children: "structure",
     },
+    {
+      text: "ABP",
+      icon: "vscode-icons:file-type-asp",
+      collapsible: true,
+      prefix: "04_ABP/",
+      children: "structure",
+    },
   ],
 });
